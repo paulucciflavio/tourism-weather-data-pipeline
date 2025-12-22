@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -43.2075,
+    "lat": -22.9028
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "céu limpo",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 29.36,
+    "feels_like": 30.85,
+    "temp_min": 28.98,
+    "temp_max": 31.12,
+    "pressure": 1013,
+    "humidity": 55,
+    "sea_level": 1013,
+    "grnd_level": 1014
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.09,
+    "deg": 140
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1766414759,
+  "sys": {
+    "type": 1,
+    "id": 8429,
+    "country": "BR",
+    "sunrise": 1766390715,
+    "sunset": 1766439461
+  },
+  "timezone": -10800,
+  "id": 3451190,
+  "name": "Rio de Janeiro",
+  "cod": 200
+}
