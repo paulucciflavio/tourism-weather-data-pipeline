@@ -37,17 +37,17 @@ armazenamento e organização de dados.
 
 ## Estrutura do projeto
 tourism-weather-data-pipeline/
-config/ # Configurações do projeto (APIs, caminhos, variáveis)
-data/
- raw/ # Dados brutos coletados das fontes (sem transformação)
-processed/ # Dados limpos e transformados
- curated/ # Dados prontos para análise
-docker/ # Arquivos relacionados à containerização
-extract/ # Scripts de extração de dados (APIs e CSVs)
-transform/ # Scripts de limpeza e transformação dos dados
-load/ # Scripts de carga dos dados em banco
-notebooks/ # Exploração e testes (não faz parte do pipeline final)
- README.md
+├── config/ # Configurações do projeto (APIs, caminhos, variáveis)
+├── data/
+│ ├── raw/ # Dados brutos coletados das fontes (sem transformação)
+│ ├── processed/ # Dados limpos e transformados
+│ └── curated/ # Dados prontos para análise
+├── docker/ # Arquivos relacionados à containerização
+├── extract/ # Scripts de extração de dados (APIs e CSVs)
+├── transform/ # Scripts de limpeza e transformação dos dados
+├── load/ # Scripts de carga dos dados em banco
+├── notebooks/ # Exploração e testes (não faz parte do pipeline final)
+└── README.md
 
 ## Status do projeto
 🚧 Em desenvolvimento — atualmente na fase de ingestão de dados (extract)
