@@ -34,7 +34,7 @@ armazenamento e organização de dados.
 - Airflow (em breve)
 
 ## Estrutura do projeto
-
+'''text
 tourism-weather-data-pipeline/
 ├── config/ # Configurações do projeto (APIs, caminhos, variáveis)
 ├── data/
@@ -47,7 +47,7 @@ tourism-weather-data-pipeline/
 ├── load/ # Scripts de carga dos dados em banco
 ├── notebooks/ # Exploração e testes (não faz parte do pipeline final)
 └── README.md
-
+'''
 ## Status do projeto
 🚧 Em desenvolvimento — atualmente na fase de ingestão de dados (extract)
 
