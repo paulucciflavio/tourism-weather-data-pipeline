@@ -33,9 +33,8 @@ armazenamento e organização de dados.
 - Docker (em breve)
 - Airflow (em breve)
 
----
-
 ## Estrutura do projeto
+
 tourism-weather-data-pipeline/
 ├── config/ # Configurações do projeto (APIs, caminhos, variáveis)
 ├── data/
