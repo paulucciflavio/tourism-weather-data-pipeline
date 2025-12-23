@@ -1,13 +1,13 @@
-# Ambiente virtual (Python)
+# Ambiente virtual
 venv/
 
-# Dados brutos (não versionar dados de origem)
+# Dados
 data/raw/
+data/processed/
 
-# Arquivos Excel
-*.xls
-*.xlsx
-
-# Cache do Python
+# Cache Python
 __pycache__/
 *.pyc
+
+# Sistema
+.DS_Store
