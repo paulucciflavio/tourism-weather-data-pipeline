@@ -48,12 +48,14 @@ tourism-weather-data-pipeline/
 ├── notebooks/ # Exploração e testes (não faz parte do pipeline final)
 └── README.md
 ```
+## Dependências
+- pandas
+- xlrd (para leitura de arquivos .xls do IBGE)
 
 ## Status do projeto
-🚧 Em desenvolvimento — atualmente na fase de ingestão de dados (extract)
+🚧 Em desenvolvimento — atualmente na fase de Implementação de carga de dados em PostgreSQL (LOAD)
 
 ## Próximos passos
-- Implementar carga de dados em PostgreSQL
 - Criar modelagem analítica (star schema)
 - Orquestrar o pipeline com Airflow
 - Adicionar validações de qualidade de dados
